@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="appTitle">Listy zakupowe</string>
+    <string-array name="products">
+        <item>Mleko</item>
+        <item>Jajka</item>
+        <item>Płatki</item>
+        <item>Bułki</item>
+        <item>Chleb</item>
+        <item>Papier toaletowy</item>
+        <item>Banany</item>
+        <item>Jabłka</item>
+        <item>Gruszki</item>
+        <item>Woda</item>
+        <item>Pepsi</item>
+        <item>Makaron</item>
+        <item>Śmietana</item>
+        <item>Jogurt</item>
+        <item>Pomidory</item>
+        <item>Ziemniaki</item>
+        <item>Papryka</item>
+        <item>Ogórki</item>
+        <item>Cebula</item>
+        <item>Czekoalda</item>
+        <item>Orzeszki</item>
+        <item>Chipsy</item>
+        <item>Herbata</item>
+        <item>Kawa</item>
+        <item>Sól</item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/black"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarProdAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@color/white"
+        android:background="@color/dark_gray"/>
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nazwa"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="614dp"
+        android:gravity="center_vertical"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/prodListView"
+        android:layout_width="298dp"
+        android:layout_height="338dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button_drawable"
+        android:onClick="addBtnClicked"
+        android:text="Dodaj"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/button_drawable"
+        android:onClick="okClicked"
+        android:text="OK"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/productScanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prodScanBtnClicked"
+        android:text="Skaner"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:background="@drawable/button_drawable"/>
+
+</android.support.constraint.ConstraintLayout>

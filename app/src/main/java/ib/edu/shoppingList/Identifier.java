@@ -1,0 +1,20 @@
+package ib.edu.shoppingList;
+
+public enum Identifier {
+
+    DELETE_RECORD_DIALOG_IDENTIFIER,
+    ADD_LIST_DIALOG_IDENTIFIER,
+    SCANNER_DIALOG_IDENTIFIER,
+    SHOPPING_LIST_ADAPTER_CLICK_IDENTIFIER,
+    SHOPPING_LIST_ADAPTER_LONG_CLICK_IDENTIFIER,
+    PRODUCT_ADAPTER_CLICK_IDENTIFIER,
+    PRODUCT_ADAPTER_LONG_CLICK_IDENTIFIER
+
+
+    ;
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+}

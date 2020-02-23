@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conLay"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:background="@color/ltgray">
+
+
+    <TextView
+        android:id="@+id/insertNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="120dp"
+        android:text="Podaj nazwę"
+        android:textSize="18sp"
+        android:background="@color/ltgray"/>
+
+    <Button
+        android:id="@+id/okNameBtn"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="45dp"
+
+        android:text="OK"
+        android:background="@drawable/button_drawable"
+        />
+
+    <EditText
+        android:id="@+id/editNameText"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/ltgray"/>
+</android.support.constraint.ConstraintLayout>

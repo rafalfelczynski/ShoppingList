@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/productBoxConLay"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:background="@drawable/one_item_list_drawable">
+
+    <ib.edu.shoppingList.MyBox
+        android:id="@+id/productBoxBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:buttonTint="@color/ltgray"
+        android:text="ib.edu.shoppinglist.MyBox" />
+
+</android.support.constraint.ConstraintLayout>

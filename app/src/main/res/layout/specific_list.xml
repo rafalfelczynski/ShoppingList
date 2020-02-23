@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/addProdBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_drawable"
+        android:onClick="addProductsClicked"
+        android:text="Dodaj produkty"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAddList"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@color/white"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:background="@color/dark_gray"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listProdListView"
+        android:layout_width="199dp"
+        android:layout_height="68dp"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="165dp" >
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>
